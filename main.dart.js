@@ -9687,7 +9687,7 @@ _.f=!1
 _.r=""
 _.x=a
 _.y="Dashboard"
-_.z="Settings"
+_.z="Support"
 _.Q=null
 _.ch="Logout"
 _.cx="Sales"
@@ -33798,7 +33798,7 @@ f4:function(){var s=0,r=P.a6(t.H),q=this,p,o
 var $async$f4=P.a2(function(a,b){if(a===1)return P.a3(b,r)
 while(true)switch(s){case 0:o=t.X
 N.ay("Dashboard").O(0,new Z.a1t(q),o)
-N.ay("Settings").O(0,new Z.a1u(q),o)
+N.ay("Support").O(0,new Z.a1u(q),o)
 s=2
 return P.a9(N.ay("Logout").O(0,new Z.a1v(q),o),$async$f4)
 case 2:s=3
