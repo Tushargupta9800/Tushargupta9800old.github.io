@@ -9687,13 +9687,13 @@ _.f=!1
 _.r=""
 _.x=a
 _.y="Dashboard"
-_.z="Support"
+_.z="Settings"
 _.Q=null
 _.ch="Logout"
 _.cx="Sales"
 _.cy="Product"
 _.db="Orders"
-_.dx="About us"
+_.dx="Support us"
 _.fr="English"
 _.fx=!0
 _.a=null
@@ -33798,7 +33798,7 @@ f4:function(){var s=0,r=P.a5(t.H),q=this,p,o
 var $async$f4=P.a1(function(a,b){if(a===1)return P.a2(b,r)
 while(true)switch(s){case 0:o=t.X
 N.ay("Dashboard").O(0,new Z.a1u(q),o)
-N.ay("Support").O(0,new Z.a1v(q),o)
+N.ay("Settings").O(0,new Z.a1v(q),o)
 s=2
 return P.a9(N.ay("Logout").O(0,new Z.a1w(q),o),$async$f4)
 case 2:s=3
@@ -33811,7 +33811,7 @@ else q.db="\u0637\u0644\u0628"
 if(p)q.fr="English"
 else q.fr="\u0639\u0631\u0628\u0649"
 s=5
-return P.a9(N.ay("About Us").O(0,new Z.a1z(q),o),$async$f4)
+return P.a9(N.ay("Support Us").O(0,new Z.a1z(q),o),$async$f4)
 case 5:return P.a3(null,r)}})
 return P.a4($async$f4,r)}}
 Z.a1B.prototype={
