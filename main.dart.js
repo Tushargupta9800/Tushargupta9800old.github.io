@@ -35499,7 +35499,7 @@ r=k.Ra(b)
 q=b.C(g).f
 p=b.C(g).f
 o=t.t
-n=H.b([T.aC(j,20,j),D.adj("Product Name",k.x,b,i,h),M.R(j,D.bv(j,T.bB(L.ar("Upload The VAT (less then 400Kb)",j,j,j,j,j,j),j,j),C.r,!1,j,j,j,j,j,j,j,j,j,j,j,new B.aam(k,b),j,j,j,j,j,j),j,j,j,j,j,j,j),D.adj("Price(\ufdfc)",k.z,b,i,h)],o)
+n=H.b([T.aC(j,20,j),D.adj("Product Name",k.x,b,i,h),M.R(j,D.bv(j,T.bB(L.ar("Upload The Image (less then 400Kb)",j,j,j,j,j,j),j,j),C.r,!1,j,j,j,j,j,j,j,j,j,j,j,new B.aam(k,b),j,j,j,j,j,j),j,j,j,j,j,j,j),D.adj("Price(\ufdfc)",k.z,b,i,h)],o)
 for(m=0;m<k.fy.length;++m){l=b.C(g).f
 n.push(M.R(j,new T.iH(C.a7,j,j,E.eX(new T.wr(C.l,C.pO,0,0,H.b([k.R_(m),new T.ic(10,j,j,j),k.R1(m),new T.ic(10,j,j,j),k.R0(m)],o),j),C.l),j),j,j,j,j,new V.a7(5,0,5,5),j,l.a.a))}n.push(T.cq(H.b([R.hW(!1,j,!0,M.R(j,L.dl(C.rk,j,40),j,j,j,j,j,j,j),j,!0,j,j,j,j,j,j,j,j,j,new B.aan(k),j,j,j),R.hW(!1,j,!0,M.R(j,L.dl(C.A4,j,40),j,j,j,j,j,j,j),j,!0,j,j,j,j,j,j,j,j,j,new B.aao(k),j,j,j)],o),C.a9,C.n))
 n.push(D.adj(i,k.ch,b,i,h))
