@@ -11147,7 +11147,9 @@ this.b=b},a5G:function a5G(a,b,c){this.a=a
 this.b=b
 this.c=c},a5D:function a5D(a){this.a=a},uK:function uK(a){this.a=a},Ka:function Ka(a){var _=this
 _.x=1
-_.a=_.y=null
+_.y=null
+_.z="Confirm"
+_.a=null
 _.b=a
 _.c=null},a6f:function a6f(a){this.a=a},a6e:function a6e(){},a6g:function a6g(a){this.a=a},a6d:function a6d(a){this.a=a},a6a:function a6a(a){this.a=a},a6b:function a6b(a,b,c){this.a=a
 this.b=b
@@ -11156,7 +11158,7 @@ this.b=b
 this.c=c},a68:function a68(a,b){this.a=a
 this.b=b},a66:function a66(a){this.a=a},a67:function a67(a,b,c){this.a=a
 this.b=b
-this.c=c},a64:function a64(){},a65:function a65(a,b){this.a=a
+this.c=c},a64:function a64(a){this.a=a},a65:function a65(a,b){this.a=a
 this.b=b},a63:function a63(){},u3:function u3(a,b,c,d){var _=this
 _.a=a
 _.b=b
@@ -35101,22 +35103,21 @@ $0:function(){var s=$.dF,r=this.b
 if(new H.tU(s,H.aj(s).j("tU<1>")).af(0,r))E.ag0(new Q.a68(this.a,r),this.c,t.X)},
 $S:1}
 Q.a68.prototype={
-$1:function(a){var s=null,r=L.aq("Deleting Product",s,s,s,s,s,s),q=L.aq("Do you really want to delete the Product?",s,s,s,s,s,s)
-return E.adu(H.b([N.adX(L.aq("Cancel",s,s,s,s,A.aS(s,s,C.i,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),C.a3.h(0,800),new Q.a66(a)),T.az(s,s,20),N.adX(L.aq("Confirm",s,s,s,s,A.aS(s,s,C.i,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),C.lh,new Q.a67(this.a,this.b,a))],t.t),q,r)},
+$1:function(a){var s=null,r=L.aq("Deleting Product",s,s,s,s,s,s),q=L.aq("Do you really want to delete the Product?",s,s,s,s,s,s),p=this.a
+return E.adu(H.b([N.adX(L.aq("Cancel",s,s,s,s,A.aS(s,s,C.i,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),C.a3.h(0,800),new Q.a66(a)),T.az(s,s,20),N.adX(L.aq(p.z,s,s,s,s,A.aS(s,s,C.i,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),C.lh,new Q.a67(p,this.b,a))],t.t),q,r)},
 $S:71}
 Q.a66.prototype={
 $0:function(){K.ci(this.a,!1).cM(0,null)
 return null},
 $S:0}
 Q.a67.prototype={
-$0:function(){var s,r=this.a
-r.w(new Q.a64())
-s=this.c
-K.PA($.dF[this.b].a).E(0,new Q.a65(r,s),t.P)
-K.ci(s,!1).cM(0,null)},
+$0:function(){var s=this.a
+s.w(new Q.a64(s))
+K.PA($.dF[this.b].a).E(0,new Q.a65(s,this.c),t.P)},
 $S:1}
 Q.a64.prototype={
-$0:function(){$.acY=!0},
+$0:function(){this.a.z="wait..."
+$.acY=!0},
 $S:1}
 Q.a65.prototype={
 $1:function(a){return this.MK(a)},
@@ -35132,6 +35133,7 @@ break
 case 4:s=6
 return P.O(N.c6("Error, Try Again",p),$async$$1)
 case 6:case 3:q.a.w(new Q.a63())
+K.ci(p,!1).cM(0,null)
 $.bo().toString
 K.ci(p,!1).cM(0,null)
 $.bo().ej(p,"/vender/dashboard",C.ab)
